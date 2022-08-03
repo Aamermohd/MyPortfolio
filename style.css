@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner1.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -363,10 +363,10 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 60%;
+    width: 80%;
 }
 .skills-content .right .css::before{
-    width: 50%;
+    width: 60%;
 }
 .skills-content .right .js::before{
     width: 60%;
@@ -377,11 +377,10 @@ section .title::after{
 .skills-content .right .sql::before{
     width: 70%;
 }
-
-/* teams section styling */
-.teams .title::after{
-    content: "who is with me";
+.skills-content .right .Java::before{
+    width: 70%;
 }
+
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
